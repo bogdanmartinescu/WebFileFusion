@@ -1,0 +1,43 @@
+{
+  "name": "webfilefusion",
+  "version": "0.1.0",
+  "description": "An intuitive and promise-based wrapper around the Web File API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint 'src/**/*.{ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdanmartinescu/webfilefusion.git"
+  },
+  "keywords": [
+    "Web File API",
+    "file",
+    "typescript",
+    "javascript",
+    "browser"
+  ],
+  "author": "Liviu Martinescu <hi@mlb.ro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bogdanmartinescu/webfilefusion/issues"
+  },
+  "homepage": "https://github.com/bogdanmartinescu/webfilefusion#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "typescript": "^4.x.x"
+  }
+}
