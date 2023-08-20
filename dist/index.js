@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.blobAsDataURL = exports.blobAsText = exports.readDataUrl = exports.readBinaryString = exports.readArrayBuffer = exports.readText = exports.getFileType = void 0;
+var getFileType_1 = require("./getFileType");
+Object.defineProperty(exports, "getFileType", { enumerable: true, get: function () { return getFileType_1.getFileType; } });
+var readText_1 = require("./readText");
+Object.defineProperty(exports, "readText", { enumerable: true, get: function () { return readText_1.readText; } });
+var readArrayBuffer_1 = require("./readArrayBuffer");
+Object.defineProperty(exports, "readArrayBuffer", { enumerable: true, get: function () { return readArrayBuffer_1.readArrayBuffer; } });
+var readBinaryString_1 = require("./readBinaryString");
+Object.defineProperty(exports, "readBinaryString", { enumerable: true, get: function () { return readBinaryString_1.readBinaryString; } });
+var readDataUrl_1 = require("./readDataUrl");
+Object.defineProperty(exports, "readDataUrl", { enumerable: true, get: function () { return readDataUrl_1.readDataUrl; } });
+var blobAsText_1 = require("./blobAsText");
+Object.defineProperty(exports, "blobAsText", { enumerable: true, get: function () { return blobAsText_1.blobAsText; } });
+var blobAsDataUrl_1 = require("./blobAsDataUrl");
+Object.defineProperty(exports, "blobAsDataURL", { enumerable: true, get: function () { return blobAsDataUrl_1.blobAsDataURL; } });
