@@ -9,7 +9,6 @@ export const getFileType = (file: File): string => {
       return "TypeScript";
     case "json":
       return "JSON";
-    // ... You can extend this list as needed
     default:
       return "Unknown";
   }
