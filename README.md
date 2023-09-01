@@ -2,8 +2,6 @@
 
 WebFileFusion is a comprehensive JavaScript library, providing an intuitive and promise-based wrapper around the Web File API. Streamline your file operations in modern web applications with ease.
 
-![npm version badge](https://img.shields.io/npm/v/webfilefusion) ![build status](https://img.shields.io/travis/yourusername/webfilefusion)
-
 ## Features
 
 - **Promise-Based Methods**: Asynchronous file operations made easy.
